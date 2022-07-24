@@ -1,0 +1,67 @@
+<%- include('./header')-%>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="col-lg-6">
+                <form id="sign-in-form" action="" method="GET" novalidate="novalidate" autocomplete="off">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp"
+                            placeholder="Example: name@gmail.com">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" name="password" id="password"
+                            placeholder="Password">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" name="rememberMe" id="rememberMe">
+                        <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                    </div>
+                    <div class="container">
+                        <button type="submit" name="submit" value="signIn" class="btn btn-success">SignIn</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="col-lg-6">
+                <form id="sign-up-form" action="" method="POST" novalidate="novalidate" autocomplete="off">
+                    <div class="mb-3">
+                        <label for="firstName" class="form-label">First name</label>
+                        <input type="text" class="form-control" name="firstName" id="firstName"
+                            placeholder="First name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last name"
+                            placeholder="First name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp"
+                            placeholder="Example: name@gmail.com">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" name="password" id="password"
+                            placeholder="Password">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" name="rememberMe" id="rememberMe">
+                        <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                    </div>
+                    <div class="container">
+                        <button type="submit" name="submit" value="signUp" class="btn btn-success">SignUp</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include('./footer')-%>

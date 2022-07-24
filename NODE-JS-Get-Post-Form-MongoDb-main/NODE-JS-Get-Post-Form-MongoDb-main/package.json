@@ -1,0 +1,25 @@
+{
+  "name": "node-js-get-post-form-mongodb",
+  "version": "1.0.0",
+  "description": "Node Js Task, Get/Post Form and MongoDb",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BartovElisha/NODE-JS-Get-Post-Form-MongoDb.git"
+  },
+  "author": "Elisha Bartov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BartovElisha/NODE-JS-Get-Post-Form-MongoDb/issues"
+  },
+  "homepage": "https://github.com/BartovElisha/NODE-JS-Get-Post-Form-MongoDb#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6"
+  }
+}
